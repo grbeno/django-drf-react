@@ -3,10 +3,10 @@ import axios from 'axios';
 
 function App() {
   
-  // states
+  // Hooks
   const [todos, setTodos] = React.useState([]);
 
-  // axios call
+  // Axios call
   const getTodos = () => {
     axios.get('http://localhost:8000/api/').then(res => {
       setTodos(res.data);
@@ -16,13 +16,14 @@ function App() {
     });
   }
 
-  // call getTodos on component mount
+  // Call getTodos on component mount
   React.useEffect(() => {
     getTodos();
   }, []);
 
   return (
     <div>
+      <h1>My todos:</h1>
       {todos.map(item => (
         <div key={item.id} style={{paddingLeft: '1%'}}>
           <h1>{item.title}</h1>
