@@ -1,4 +1,4 @@
-### Django-Django REST framework-ReactJs sample
+### Django-Django REST framework-ReactJS sample
 
 This sample project is based on Django (backend) and the ReactJS library (frontend) using Django REST framework. The project provides a basic setup for developing custom web applications.
 
@@ -22,7 +22,7 @@ This sample project is based on Django (backend) and the ReactJS library (fronte
 - Create .env file (without any extension)
 - Generate a secret key: 
   - $ python -c 'import secrets;print(secrets.token_urlsafe())'
-- Add the next variables to it:
+- Add the next variables to the .env file:
   - export DEBUG=True
   - export SECRET_KEY=/your-generated-secret_key/
 
