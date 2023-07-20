@@ -13,7 +13,7 @@ This sample project is based on Django (backend) and the ReactJS library (fronte
 
 ---
 
-#### How to use this sample
+### How to use the sample
 - Download Zip file from the repository
 - Unpack the Zip file and rename the folder
 - Create virtual environment: 
@@ -43,6 +43,6 @@ This sample project is based on Django (backend) and the ReactJS library (fronte
 - localhost:8000/admin/
   - create a todo to ensure that everything is okay!
 
-### Important
+### Important notes
 - $ npm run build: if you modify something in React
 - '$': a command in terminal/powershell
