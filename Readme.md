@@ -46,5 +46,5 @@ This sample project is based on Django (backend) and the ReactJS library (fronte
 ***
 
 ### Important notes
-- $ npm run build: if you modify something in React
-- '$': a command in terminal/powershell
+- $ npm run build /if you modify something in React/
+- '$' refers to a command in terminal/powershell
