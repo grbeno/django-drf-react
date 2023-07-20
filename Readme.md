@@ -1,4 +1,4 @@
-### Django-Django REST framework-ReactJs sample to develop web applications
+### Django-Django REST framework-ReactJs sample
 
 This sample project is based on Django (backend) and the ReactJS library (frontend) using Django REST framework. The project provides a basic setup for developing custom web applications.
 
@@ -42,6 +42,8 @@ This sample project is based on Django (backend) and the ReactJS library (fronte
 - $ python manage.py createsuperuser
 - localhost:8000/admin/
   - create a todo to ensure that everything is okay!
+
+***
 
 ### Important notes
 - $ npm run build: if you modify something in React
