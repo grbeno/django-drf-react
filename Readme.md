@@ -1,6 +1,6 @@
 ### Django-Django REST framework-ReactJs sample to develop web applications
 
-This sample project is based on Django, Django REST framework (backend) and ReactJS library (frontend). The sample contains a basic setup to develop custom web applications.
+This sample project is based on Django (backend) and the ReactJS library (frontend) using Django REST framework. The project provides a basic setup for developing custom web applications.
 
 #### Tools & requisites
 - Windows
@@ -10,6 +10,8 @@ This sample project is based on Django, Django REST framework (backend) and Reac
 - pipenv
 - nvm
 - nodejs
+
+---
 
 #### How to use this sample
 - Download Zip file from the repository
@@ -25,7 +27,7 @@ This sample project is based on Django, Django REST framework (backend) and Reac
   - export SECRET_KEY=/your-generated-secret_key/
 
 #### Install nvm and nodejs
-- If you have already installed nvm and nodejs then ignore the next steps!
+- If you have already installed nvm-windows and Node.js then you can ignore the next steps!
 - [nvm-windows](https://github.com/coreybutler/nvm-windows#node-version-manager-nvm-for-windows)
 - [download & install nvm-setup.zip](https://github.com/coreybutler/nvm-windows/releases)
 - restart the terminal/powershell
@@ -39,8 +41,8 @@ This sample project is based on Django, Django REST framework (backend) and Reac
 - $ python manage.py migrate
 - $ python manage.py createsuperuser
 - localhost:8000/admin/
-  - create a todo to check if everything is okay
+  - create a todo to ensure that everything is okay!
 
-#### Important
+### Important
 - $ npm run build: if you modify something in React
 - '$': a command in terminal/powershell
