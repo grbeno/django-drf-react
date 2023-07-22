@@ -21,7 +21,7 @@ This sample project is based on Django (backend) and the ReactJS library (fronte
   - $ `pipenv shell`
 - Create .env file (without any extension)
 - Generate a secret key: 
-  - $ `python -c 'import secrets;print(secrets.token_urlsafe())'
+  - $ `python -c 'import secrets;print(secrets.token_urlsafe())'`
 - Add the next variables to the .env file:
   - `export DEBUG=True`
   - `export SECRET_KEY=/your-generated-secret_key/`
