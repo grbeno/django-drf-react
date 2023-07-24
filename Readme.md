@@ -1,4 +1,4 @@
-## Django-Django REST framework-ReactJS sample app
+# Django-DRF-ReactJS sample app
 
 This sample project is based on Django (backend) and the ReactJS library (frontend) using Django REST framework. The project provides a basic setup for developing custom web applications.
 
@@ -50,7 +50,7 @@ This sample project is based on Django (backend) and the ReactJS library (fronte
 - '$' refers to a command in terminal/powershell
 
 ## Deploying to Heroku
----
+
 ### Prepare Django
 ---
 $ `cd /your-project-path/`
